@@ -1,0 +1,53 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+# Rider specific files
+.idea/
+*.sln.iml
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio Code settings
+.vscode/
+
+# Rider caches
+.idea/
+*.sln.iml
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Visual Studio specific files
+.vs/
+*.vscode/
+
+
+# Ignore launchSettings files (optional)
+**/launchSettings.json
+
+# Ignore test results and build artifacts
+TestResults/
+*.testsettings
+*.trx
+
+# Ignore coverage reports (optional)
+coverage/

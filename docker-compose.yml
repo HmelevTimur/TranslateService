@@ -1,0 +1,11 @@
+﻿version: "3.8"
+
+services:
+  yandex_translate_service: 
+    container_name: yandex_translate_service
+    build:
+      context: ./YandexTranslateService
+      dockerfile: Dockerfile
+    ports:
+      - "5106:5106"  
+  
